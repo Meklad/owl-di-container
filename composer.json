@@ -1,0 +1,24 @@
+{
+    "name": "meklad/owl-di-container",
+    "description": "A native php app that use service container based on php reflection api",
+    "type": "project",
+    "require-dev": {
+        "symfony/var-dumper": "6.4.x-dev",
+        "pestphp/pest": "2.x-dev",
+        "pestphp/pest-plugin": "2.x-dev"
+    },
+    "license": "GNU-GPL",
+    "authors": [
+        {
+            "name": "Ahmed abd el rahman",
+            "email": "ahmed.meklad.news@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
